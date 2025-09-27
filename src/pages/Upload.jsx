@@ -120,7 +120,7 @@ const Upload = () => {
     formData.append('file', selectedFile);
 
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:3000/api/upload');
+    xhr.open('POST', 'http://localhost:5000/api/upload');
 
     xhr.upload.onprogress = (event) => {
       if (event.lengthComputable) {

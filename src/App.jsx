@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Upload from "./pages/Upload";
 import Result from "./pages/Result";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
@@ -13,6 +13,7 @@ function App() {
         <Route path="/upload" element={<Upload />} />
         <Route path="/result" element={<Result />} />
       </Routes>
+      {/* <Footer /> */}
     </Router>
   );
 }
