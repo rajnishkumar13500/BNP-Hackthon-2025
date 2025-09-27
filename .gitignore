@@ -1,0 +1,90 @@
+# Project-wide gitignore
+# This file covers common patterns for the entire BNP Hackathon project
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
+build/
+dist/
+out/
+
+# Dependencies (will be handled by specific .gitignore files in subdirectories)
+node_modules/
+__pycache__/
+
+# Coverage reports
+coverage/
+.nyc_output
+htmlcov/
+.coverage
+
+# Cache directories
+.cache/
+.parcel-cache/
+.pytest_cache/
+.mypy_cache/
+
+# Documentation build
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Project specific
+# Add any project-specific patterns here
